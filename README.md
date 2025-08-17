@@ -2,10 +2,10 @@ Introduction to Artificial Intelligence - Exercise 4: GraphPlan
 
 This project, part of the Introduction to Artificial Intelligence course, focuses on implementing and extending the GraphPlan algorithm for automated planning. The assignment includes building planning graphs with mutex relations, applying GraphPlan to the Dock-Worker Robot (DWR) domain, deriving heuristics from planning graphs for A*, and generating domain and problem files for the Tower of Hanoi puzzle.
 The primary goals of this project are:
-Implementing GraphPlan with action and proposition mutex relations.
-Using planning graphs to generate heuristics such as max-level and level-sum.
-Comparing heuristics theoretically and empirically.
-Automatically generating domain and problem files for Tower of Hanoi with arbitrary disk and peg counts.
+Implementing GraphPlan with action and proposition mutex relations
+Using planning graphs to generate heuristics such as max-level and level-sum
+Comparing heuristics theoretically and empirically
+Automatically generating domain and problem files for Tower of Hanoi with arbitrary disk and peg counts
 
 Files:
 graph_plan.py - Main GraphPlan implementation
