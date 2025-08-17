@@ -1,0 +1,147 @@
+Propositions:
+d_0_p_0 not_d_0_p_0 d_0_p_1 not_d_0_p_1 d_0_p_2 not_d_0_p_2 d_0_p_3 not_d_0_p_3 d_1_p_0 not_d_1_p_0 d_1_p_1 not_d_1_p_1 d_1_p_2 not_d_1_p_2 d_1_p_3 not_d_1_p_3 d_2_p_0 not_d_2_p_0 d_2_p_1 not_d_2_p_1 d_2_p_2 not_d_2_p_2 d_2_p_3 not_d_2_p_3 
+Actions:
+Name: Move_d_0_from_p_0_to_p_1
+pre: d_0_p_0 
+add: d_0_p_1 not_d_0_p_0
+delete: d_0_p_0 not_d_0_p_1
+Name: Move_d_0_from_p_0_to_p_2
+pre: d_0_p_0 
+add: d_0_p_2 not_d_0_p_0
+delete: d_0_p_0 not_d_0_p_2
+Name: Move_d_0_from_p_0_to_p_3
+pre: d_0_p_0 
+add: d_0_p_3 not_d_0_p_0
+delete: d_0_p_0 not_d_0_p_3
+Name: Move_d_0_from_p_1_to_p_0
+pre: d_0_p_1 
+add: d_0_p_0 not_d_0_p_1
+delete: d_0_p_1 not_d_0_p_0
+Name: Move_d_0_from_p_1_to_p_2
+pre: d_0_p_1 
+add: d_0_p_2 not_d_0_p_1
+delete: d_0_p_1 not_d_0_p_2
+Name: Move_d_0_from_p_1_to_p_3
+pre: d_0_p_1 
+add: d_0_p_3 not_d_0_p_1
+delete: d_0_p_1 not_d_0_p_3
+Name: Move_d_0_from_p_2_to_p_0
+pre: d_0_p_2 
+add: d_0_p_0 not_d_0_p_2
+delete: d_0_p_2 not_d_0_p_0
+Name: Move_d_0_from_p_2_to_p_1
+pre: d_0_p_2 
+add: d_0_p_1 not_d_0_p_2
+delete: d_0_p_2 not_d_0_p_1
+Name: Move_d_0_from_p_2_to_p_3
+pre: d_0_p_2 
+add: d_0_p_3 not_d_0_p_2
+delete: d_0_p_2 not_d_0_p_3
+Name: Move_d_0_from_p_3_to_p_0
+pre: d_0_p_3 
+add: d_0_p_0 not_d_0_p_3
+delete: d_0_p_3 not_d_0_p_0
+Name: Move_d_0_from_p_3_to_p_1
+pre: d_0_p_3 
+add: d_0_p_1 not_d_0_p_3
+delete: d_0_p_3 not_d_0_p_1
+Name: Move_d_0_from_p_3_to_p_2
+pre: d_0_p_3 
+add: d_0_p_2 not_d_0_p_3
+delete: d_0_p_3 not_d_0_p_2
+Name: Move_d_1_from_p_0_to_p_1
+pre: d_1_p_0 not_d_0_p_1 not_d_0_p_0 
+add: d_1_p_1 not_d_1_p_0
+delete: d_1_p_0 not_d_1_p_1
+Name: Move_d_1_from_p_0_to_p_2
+pre: d_1_p_0 not_d_0_p_2 not_d_0_p_0 
+add: d_1_p_2 not_d_1_p_0
+delete: d_1_p_0 not_d_1_p_2
+Name: Move_d_1_from_p_0_to_p_3
+pre: d_1_p_0 not_d_0_p_3 not_d_0_p_0 
+add: d_1_p_3 not_d_1_p_0
+delete: d_1_p_0 not_d_1_p_3
+Name: Move_d_1_from_p_1_to_p_0
+pre: d_1_p_1 not_d_0_p_0 not_d_0_p_1 
+add: d_1_p_0 not_d_1_p_1
+delete: d_1_p_1 not_d_1_p_0
+Name: Move_d_1_from_p_1_to_p_2
+pre: d_1_p_1 not_d_0_p_2 not_d_0_p_1 
+add: d_1_p_2 not_d_1_p_1
+delete: d_1_p_1 not_d_1_p_2
+Name: Move_d_1_from_p_1_to_p_3
+pre: d_1_p_1 not_d_0_p_3 not_d_0_p_1 
+add: d_1_p_3 not_d_1_p_1
+delete: d_1_p_1 not_d_1_p_3
+Name: Move_d_1_from_p_2_to_p_0
+pre: d_1_p_2 not_d_0_p_0 not_d_0_p_2 
+add: d_1_p_0 not_d_1_p_2
+delete: d_1_p_2 not_d_1_p_0
+Name: Move_d_1_from_p_2_to_p_1
+pre: d_1_p_2 not_d_0_p_1 not_d_0_p_2 
+add: d_1_p_1 not_d_1_p_2
+delete: d_1_p_2 not_d_1_p_1
+Name: Move_d_1_from_p_2_to_p_3
+pre: d_1_p_2 not_d_0_p_3 not_d_0_p_2 
+add: d_1_p_3 not_d_1_p_2
+delete: d_1_p_2 not_d_1_p_3
+Name: Move_d_1_from_p_3_to_p_0
+pre: d_1_p_3 not_d_0_p_0 not_d_0_p_3 
+add: d_1_p_0 not_d_1_p_3
+delete: d_1_p_3 not_d_1_p_0
+Name: Move_d_1_from_p_3_to_p_1
+pre: d_1_p_3 not_d_0_p_1 not_d_0_p_3 
+add: d_1_p_1 not_d_1_p_3
+delete: d_1_p_3 not_d_1_p_1
+Name: Move_d_1_from_p_3_to_p_2
+pre: d_1_p_3 not_d_0_p_2 not_d_0_p_3 
+add: d_1_p_2 not_d_1_p_3
+delete: d_1_p_3 not_d_1_p_2
+Name: Move_d_2_from_p_0_to_p_1
+pre: d_2_p_0 not_d_0_p_1 not_d_0_p_0 not_d_1_p_1 not_d_1_p_0 
+add: d_2_p_1 not_d_2_p_0
+delete: d_2_p_0 not_d_2_p_1
+Name: Move_d_2_from_p_0_to_p_2
+pre: d_2_p_0 not_d_0_p_2 not_d_0_p_0 not_d_1_p_2 not_d_1_p_0 
+add: d_2_p_2 not_d_2_p_0
+delete: d_2_p_0 not_d_2_p_2
+Name: Move_d_2_from_p_0_to_p_3
+pre: d_2_p_0 not_d_0_p_3 not_d_0_p_0 not_d_1_p_3 not_d_1_p_0 
+add: d_2_p_3 not_d_2_p_0
+delete: d_2_p_0 not_d_2_p_3
+Name: Move_d_2_from_p_1_to_p_0
+pre: d_2_p_1 not_d_0_p_0 not_d_0_p_1 not_d_1_p_0 not_d_1_p_1 
+add: d_2_p_0 not_d_2_p_1
+delete: d_2_p_1 not_d_2_p_0
+Name: Move_d_2_from_p_1_to_p_2
+pre: d_2_p_1 not_d_0_p_2 not_d_0_p_1 not_d_1_p_2 not_d_1_p_1 
+add: d_2_p_2 not_d_2_p_1
+delete: d_2_p_1 not_d_2_p_2
+Name: Move_d_2_from_p_1_to_p_3
+pre: d_2_p_1 not_d_0_p_3 not_d_0_p_1 not_d_1_p_3 not_d_1_p_1 
+add: d_2_p_3 not_d_2_p_1
+delete: d_2_p_1 not_d_2_p_3
+Name: Move_d_2_from_p_2_to_p_0
+pre: d_2_p_2 not_d_0_p_0 not_d_0_p_2 not_d_1_p_0 not_d_1_p_2 
+add: d_2_p_0 not_d_2_p_2
+delete: d_2_p_2 not_d_2_p_0
+Name: Move_d_2_from_p_2_to_p_1
+pre: d_2_p_2 not_d_0_p_1 not_d_0_p_2 not_d_1_p_1 not_d_1_p_2 
+add: d_2_p_1 not_d_2_p_2
+delete: d_2_p_2 not_d_2_p_1
+Name: Move_d_2_from_p_2_to_p_3
+pre: d_2_p_2 not_d_0_p_3 not_d_0_p_2 not_d_1_p_3 not_d_1_p_2 
+add: d_2_p_3 not_d_2_p_2
+delete: d_2_p_2 not_d_2_p_3
+Name: Move_d_2_from_p_3_to_p_0
+pre: d_2_p_3 not_d_0_p_0 not_d_0_p_3 not_d_1_p_0 not_d_1_p_3 
+add: d_2_p_0 not_d_2_p_3
+delete: d_2_p_3 not_d_2_p_0
+Name: Move_d_2_from_p_3_to_p_1
+pre: d_2_p_3 not_d_0_p_1 not_d_0_p_3 not_d_1_p_1 not_d_1_p_3 
+add: d_2_p_1 not_d_2_p_3
+delete: d_2_p_3 not_d_2_p_1
+Name: Move_d_2_from_p_3_to_p_2
+pre: d_2_p_3 not_d_0_p_2 not_d_0_p_3 not_d_1_p_2 not_d_1_p_3 
+add: d_2_p_2 not_d_2_p_3
+delete: d_2_p_3 not_d_2_p_2

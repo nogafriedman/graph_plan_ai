@@ -1,0 +1,2 @@
+Initial state: d_0_p_0 not_d_0_p_1 not_d_0_p_2 not_d_0_p_3 d_1_p_0 not_d_1_p_1 not_d_1_p_2 not_d_1_p_3 d_2_p_0 not_d_2_p_1 not_d_2_p_2 not_d_2_p_3 d_3_p_0 not_d_3_p_1 not_d_3_p_2 not_d_3_p_3 
+Goal state: d_0_p_3 not_d_0_p_0 not_d_0_p_1 not_d_0_p_2 d_1_p_3 not_d_1_p_0 not_d_1_p_1 not_d_1_p_2 d_2_p_3 not_d_2_p_0 not_d_2_p_1 not_d_2_p_2 d_3_p_3 not_d_3_p_0 not_d_3_p_1 not_d_3_p_2 
